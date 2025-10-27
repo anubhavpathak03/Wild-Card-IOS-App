@@ -1,0 +1,19 @@
+# Ignore build and derived data
+build/
+DerivedData/
+
+# Ignore Xcode user data and workspace settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad*
+*.xcworkspace
+
+# macOS system files
+.DS_Store
+
+# Swift Package Manager build folder (if you ever use SPM)
+.build/
+
+# Playground cache (if any)
+timeline.xctimeline
+playground.xcworkspace
